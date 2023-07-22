@@ -1,0 +1,97 @@
+                                                       
+
+
+
+
+                  													   SQL TEST(22-07-2023) 
+																	   
+																	   
+																	   
+																	 
+				1)  Syntax to  create Database
+				            
+				                  CREATE DATABASE [IF NOT EXISTS] database_name.
+				                         
+				                
+                2)  syntax to create table.
+				                   CREATE TABLE [IF NOT EXISTS] table_name( column_definition1, column_definition2, ........, table_constraints ); 
+								   
+								   
+								   
+				3)syntax to  Add coloumb to existing table.
+				                             ALTER TABLE [schema_name.] table_name ADD column_name1 data_type constraint, column_name2 data_type constraint ...
+				
+				
+				
+				
+				4) Syntax to drop columb.
+				                            ALTER TABLE table_name DROP COLUMN column_name;
+											
+											
+											
+				5) 	Rename COLUMN name.
+				
+				                            ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name; 
+				
+				
+				
+				6) syntax to change columb datatype syntax
+				                                 
+												 ALTER TABLE table_name. MODIFY COLUMN column_name datatype;
+				
+				
+				
+				
+				7) update syntax 
+				                             .
+											 UPDATE table_name SET column1 = value1, column2 = value2...., columnN = valueN WHERE [condition]; 
+				
+				
+		
+				
+				8) delete query 
+				
+				                              
+											  DELETE FROM table_name WHERE condition of which row(s) to delete
+				
+				9)    query to get postion of charcter 
+				                             
+											 CHARINDEX() Function
+				
+				
+				
+				
+				
+				10) aggregrate function  all (query) 
+				                          
+										  
+										  
+										   1)COUNT counts how many rows are in a particular column.
+                                           2)SUM adds together all the values in a particular column.
+                                           3)MIN and MAX return the lowest and highest values in a particular column, respectively.
+                                           4)AVG calculates the average of a group of selected values.
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
